@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .card {
@@ -53,6 +53,7 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   animation: fadeIn 1s;
 }
+
 .left-section h2 {
   margin: 15px 0 5px;
   font-size: 28px;
@@ -110,7 +111,7 @@ body {
 @media (max-width: 600px) {
   .card {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 0;
     box-shadow: none;
   }
 
